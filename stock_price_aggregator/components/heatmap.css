@@ -1,0 +1,34 @@
+.heatmap-container {
+  overflow-x: auto;
+}
+
+.heatmap-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+  gap: 2px;
+  align-items: center;
+  justify-items: center;
+}
+
+.cell {
+  width: 60px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+  color: #333;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.header {
+  font-weight: bold;
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 5px;
+}
+
+.corner {
+  background-color: transparent;
+}
